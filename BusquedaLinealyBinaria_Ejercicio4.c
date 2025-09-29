@@ -38,9 +38,7 @@ int main(){
         else{
         printf("El valor NO fue encontrado."); //Si no fue encontrado, se le hace saber al usuario.
         }
-        
-        //Liberamos la memoria reservada para el arreglo en memoria dinamica
-        free(ap);
+    
     }
     else{
         printf("El tamano del arreglo debe ser mayor a cero\n"); //Consecuencia de casos especiales de entradas erroneas.
